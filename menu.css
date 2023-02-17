@@ -1,0 +1,83 @@
+
+body{
+    background-color: black;
+    
+}
+.content{
+    display: grid;
+    grid-template-columns: 40% 60%; 
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+.bg-icon{
+    background: white;
+    text-align: center;
+    width: 400px;
+    padding-top: 5em;
+    height: 25vh;
+    color: #77eeee;
+}
+.section-un{
+    position: absolute;
+    display: grid;
+    margin-left: 2%;
+    grid-template-columns: auto auto;
+    grid-gap: 20px 50px;
+    padding: 10px;
+    margin-top: 10%;
+}
+.section-un > div {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 10px;
+  }
+form{
+    background: #77eeee ; 
+    width: 150%;
+    font-size: 70px;
+    color: white;
+    height: 90vh;
+    margin-left: 70%;
+    text-align: center;
+}
+
+ form input[type=text]{
+    width: 80%;
+    padding: 5px;
+    font-size: 18px; 
+    margin-left: 4%; 
+    height: 80px;
+}
+.size-btn{
+    font-size: 6em;
+}
+
+button{
+    background-color: #77eeee;
+    margin-left: 5%; 
+    margin-left: 9%;
+    
+
+}
+ul input{
+    padding: 20px;
+    height: 100%;
+    margin-left: 15%;
+    text-align: center;
+}
+h2{
+    height: 200px;
+    text-align: center;
+    padding: 100px;
+    
+}
+h1 span{
+    color: blue;
+}
+h2 span{
+    color: black;
+}
+p span{
+    color: black;
+}
